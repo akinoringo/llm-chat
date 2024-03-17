@@ -2,7 +2,7 @@ up:
 	docker comopse up -d
 build:
 	docker compose build
-app:
+shell:
 	docker compose exec -it app bash
 stop:
 	docker compose stop
